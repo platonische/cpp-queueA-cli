@@ -92,8 +92,8 @@ void App::CreateList()
 
         this->queueProvider->addElement(
                     this->queueProvider->createElement(Value),
-                    this->queueProvider->getLastElement());
-
+                    this->queueProvider->getLastElement()
+                    );
 
         // Данные на экран для наглядности
         this->cleanScreen();
