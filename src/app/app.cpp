@@ -121,7 +121,8 @@ void App::PrintList()
 
 
     cout << "\nCount: "<< i << endl;
-    if (this->msg) cout << this->msg << endl;
+    cout << "-----------------------------------------------------------------"<< endl;
+    if (this->msg) cout << ">>>>> " << this->msg << endl;
     this->msg = NULL;
 }
 

@@ -17,7 +17,7 @@ public:
     App(Queue *);
     void Init();
 
-
+protected:
     void menu();
     void printMenuLines();
     int executeOperation(int);
